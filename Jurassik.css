@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+    background-color: #006400;
+}
+
+section{
+    width: 900px;
+    margin: 0px auto;
+}
+
+article{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    height: 30px;
+    width: 500px;
+    background-image: url("jp_menuFundo.jpg");
+    border-radius: 15px 0px 15px 0px;
+    position: relative;
+    left: 300px;
+    top: -50px;
+    box-shadow: 0px 0px 25px #123123;
+ 
+}
+
+@font-face{
+    font-family: "Jurassic Park";
+    src: url("jp_fontJurassicPark.ttf");
+}
+
+h2{
+    margin: 0px;
+    padding: 5px;
+}
+
+#secaoFilmes{    
+    height: 100px;    
+    margin: 0px;
+    font-family: "Jurassic Park";
+    text-align: center;   
+    line-height: 100px;    /*Tamanho da linha e nao da fonte*/
+    letter-spacing: 4px; /*espaçamento entre letras*/
+    font-size: 60px;
+    background-color: #550000;  
+    color: white;  
+}
+
+.containerTopo{
+    background-image: url("jp_topoFundo.jpg");
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.imagemLogotipo{
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.containerMenu{
+    height: 100%;
+    width: 100%;
+    padding: 7px 0px 0px 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;   
+
+}
+
+.menuLink{
+    text-decoration: none;
+    color: white;    
+}
+
+.menuLink:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.divClean{
+    width: 900px;
+    height: 300px;
+    background-color: #ffffff;  
+    margin: 0px auto;  
+}
+
+.divDark{
+    width: 900px;
+    height: 300px;
+    background-color: #555555;  
+    margin: 0px; 
+    color: white; 
+}
+
+.imgLeft{ 
+    float: left;       
+    margin: 0px auto;    
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 3px solid #f80202;    
+}
+
+.imgRight{ 
+    float: right;       
+    margin: 0px auto;    
+    position: relative;
+    top: 50px;
+    right: 50px;
+    border: 3px solid #f4f802;    
+}
+
+.h2Clear{
+    position: relative;
+    top:42px;
+    left: 70px;
+}
+
+.pClear{
+    width: 750px;
+    position: relative;
+    top:45px;
+    left: 70px;
+}
+
+.h2Dark{
+    position: relative;
+    top:42px;
+    left: 30px;
+}
+
+.pDark{
+    width: 670px;
+    position: relative;
+    top:45px;
+    left: 30px;
+}
+
+.premios{
+
+    margin: 0px auto;
+    background-image: url("jp_fundoSelva.jpg");  
+    background-attachment: fixed;  
+    padding: 50px;
+    text-align: center;
+}
+
+#secaoPremios{
+    color: white;
+}
+
+table{
+    margin: 0px;
+    padding: 3px;   
+    width: 400px;
+    height: 200px;      
+    border-collapse: collapse; 
+    margin: 0px auto;       
+}
+
+th{
+    background-color: #5c5b5b;
+    color: white;
+}
+
+th, tr, td{
+    border: 2px solid black;  
+}
+
+tr:nth-child(even)
+{
+    background-color: #999999;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #dddd00;
+}
+
+.footer{
+    background-image: url("jp_topoFundo.jpg");
+    position: relative;
+    bottom: 0px;
+    height: 30px;    
+}
+
+p.footer{
+    margin: 0px;
+    padding: 3px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
